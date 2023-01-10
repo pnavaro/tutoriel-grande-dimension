@@ -20,8 +20,8 @@ jobs:
         run: Rscript -e 'install.package("tidyverse")'
 
       - name: Publish to GitHub Pages (and render)
-         uses: quarto-dev/quarto-actions/publish@v2
-         with:
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
            target: gh-pages
-         env:
+        env:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
