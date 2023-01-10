@@ -1,1 +1,5 @@
 /.quarto/
+*.html
+site_libs/
+*_cache
+*_files
