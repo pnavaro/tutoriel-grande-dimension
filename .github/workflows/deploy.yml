@@ -26,6 +26,7 @@ jobs:
             any::leaps
             any::bestglm
             any::FactoMineR
+            any::FNN
             any::ISLR
             any::pls
 
