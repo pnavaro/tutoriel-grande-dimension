@@ -17,7 +17,7 @@ jobs:
           tinytex: true 
       
       - name: Install R packages
-        run: Rscript -e 'install.package("tidyverse")'
+        run: Rscript install.R
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
