@@ -3,3 +3,8 @@
 site_libs/
 *_cache
 *_files
+index.aux
+*.log
+index.pdf
+index.tex
+index.toc
