@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: docs/correction #changer display dans css et \solnfalse dnas preamble.tex pour les corrections 
+#  output-dir: docs/correction #changer display dans css et \solnfalse dnas preamble.tex pour les corrections 
   
 book:
   sidebar: 
@@ -28,15 +28,15 @@ book:
       chapters:
         - 01-intro-grande-dim.qmd
         - 02-reg-comp.qmd
-        - 03-ridge-lasso.qmd
-        - 04-mod-add.qmd
-    - part: "Non supervisée"
-      chapters:
-        - 05-kmeans-cah.qmd
-        - 06-dbscan-spectral.qmd
-    - references.qmd
+#        - 03-ridge-lasso.qmd
+#        - 04-mod-add.qmd
+#    - part: "Non supervisée"
+#      chapters:
+#        - 05-kmeans-cah.qmd
+#        - 06-dbscan-spectral.qmd
+#    - references.qmd
 
-bibliography: references.bib
+# bibliography: references.bib
 
 format: 
   html:
