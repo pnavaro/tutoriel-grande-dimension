@@ -3,6 +3,11 @@ project:
 #  output-dir: docs/correction #changer display dans css et \solnfalse dnas preamble.tex pour les corrections 
   
 book:
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/pnavaro/tutoriel-grande-dimension
+        aria-label: GitHub
   sidebar: 
     style: docked 
     search: true
