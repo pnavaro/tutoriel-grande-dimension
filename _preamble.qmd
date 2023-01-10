@@ -1,0 +1,69 @@
+::: {.content-visible when-format="html"}
+```{block}
+\newcommand{\prob}{\mathbf P}
+\newcommand{\argmin}{\mathop{\mathrm{argmin}}}
+\newcommand{\ind}{\mathbf 1}
+\newcommand{\R}{\mathbb R}
+\newcommand{\esp}{\mathbf E}
+\newcommand{\var}{\mathbf V}
+\newcommand{\ps}[2]{\langle #1,#2\rangle}
+
+```
+
+```{=html}
+<style>
+div.correction {
+  color: black;
+  background-color: #F0F0F0;
+  font-style: normal;
+  /*display: none;*/
+}
+
+.corR {
+  font-style: italic;
+  /*display: none;*/
+}
+
+.algo{
+  color: black;
+  background-color: #F9C4ED;
+  font-style: normal;
+}
+
+</style>
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+\solntrue
+:::
+
+```{r,echo=FALSE,purl=FALSE}
+library(tidyverse)
+theme_set(theme_bw(base_size = 9))
+update_geom_defaults("point", list(size=0.65))
+
+#theme_set(theme_classic())
+
+correct <- TRUE
+if (knitr::is_latex_output()){
+  comp_pdf <- TRUE
+} else {comp_pdf <- FALSE}
+```
+
+```{r include=FALSE,purl=FALSE}
+
+knitr::opts_hooks$set(teacher = function(options) {
+  if (isTRUE(options$teacher)) {
+    options$echo <- TRUE
+    options$eval <- TRUE
+    options$purl <- TRUE
+  } else {
+    options$echo <- FALSE
+    options$eval <- FALSE
+    options$purl <- FALSE
+
+  }
+  options
+})
+```

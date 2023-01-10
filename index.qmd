@@ -1,0 +1,16 @@
+# Présentation {#Presentation .unnumbered}
+
+Ce tutoriel présente quelques exercices d'application du cours `Modèle linéaire en grande dimension`. On pourra trouver
+
+-   les supports de cours associés à ce tutoriel ainsi que les données utilisées à l'adresse suivante <https://lrouviere.github.io/page_perso/grande_dim.html> ;
+-   le tutoriel sans les corrections à l'url <https://lrouviere.github.io/TUTO_GRANDE_DIM/>
+-   le tutoriel avec les corrigés (à certains moment) à l'url <https://lrouviere.github.io/TUTO_GRANDE_DIM/correction>.
+
+Il est recommandé d'utiliser **mozilla firefox** pour lire le tutoriel.
+
+Des connaissances de base en R et en statistique (modèles de régression) sont nécessaires. Le tutoriel se structure en 4 parties :
+
+-   `Fléau de la dimension` : identification du problème de la dimension pour le problème de régression ;
+-   `Régression sur composantes` : présentation des algorithmes **PCR** et **PLS** ;
+-   `Régressions pénalisées`: régularisation à l'aide de pénalités de type **Ridge/Lasso**
+-   `Modèle additif` : conservation de la structure additive du modèle linéaire mais modélisation non paramétrique des composantes.
