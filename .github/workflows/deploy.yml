@@ -27,9 +27,6 @@ jobs:
             any::ISLR
             any::pls
 
-      - name: Install R packages
-        run: Rscript install.R
-
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
