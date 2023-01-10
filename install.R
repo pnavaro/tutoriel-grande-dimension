@@ -1,0 +1,6 @@
+install.packages("tidyverse")
+install.packages("leaps")
+install.packages("bestglm")
+install.packages("ISLR")
+install.packages("FactoMineR")
+install.packages("pls")
