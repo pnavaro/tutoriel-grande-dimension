@@ -18,9 +18,9 @@ book:
   author: "L. Rouvière"
   date: today
   date-format: long
-  site-path: "/TUTO_GRANDE_DIM/"
-  downloads: [pdf, epub]
-  sharing: [twitter, facebook]
+#  site-path: "/TUTO_GRANDE_DIM/"
+#  downloads: [pdf, epub]
+#  sharing: [twitter, facebook]
 #    - background: light
 #    - title: "Visu"
 #    - contents: 
@@ -54,25 +54,25 @@ format:
     backgroundcolor: LightYellow
     toc: true
 #    code-tools: true
-  pdf:
-    documentclass: scrreprt
-    keep-tex: true
-    pdf-engine: xelatex #pdflatex #lualatex
-    highlight-style: github
-    fig-height: 3.8
-    fig-width: 5.2
-    linkcolor: red
-    urlcolor: magenta
-    toccolor: red
-    include-in-header: 
-      - /Users/laurent/Google Drive/FICHIERS_STYLE/tuto_quarto/preamble.tex
-    lang: fr
-  epub: 
-    keep-md: true
-    toc: true
-    lang: fr
-    css: style.css
-    highlight-style: github
+#  pdf:
+#    documentclass: scrreprt
+#    keep-tex: true
+#    pdf-engine: xelatex #pdflatex #lualatex
+#    highlight-style: github
+#    fig-height: 3.8
+#    fig-width: 5.2
+#    linkcolor: red
+#    urlcolor: magenta
+#    toccolor: red
+#    include-in-header: 
+#      - /Users/laurent/Google Drive/FICHIERS_STYLE/tuto_quarto/preamble.tex
+#    lang: fr
+#  epub: 
+#    keep-md: true
+#    toc: true
+#    lang: fr
+#    css: style.css
+#    highlight-style: github
 #    pdf-engine: pdflatex
 #    include-in-header: 
 #      - preamble.tex
